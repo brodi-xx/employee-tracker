@@ -8,7 +8,7 @@ const sequelize = new Sequelize(
   {
     host: 'localhost',
     dialect: 'mysql',
-    port: 3306,
+    port: 3001,
   },
   console.log(`Connected to the employee_db database.`)
 );
