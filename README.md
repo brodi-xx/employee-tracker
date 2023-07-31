@@ -22,7 +22,7 @@ Clone this repo and open in a code editing program. You will install all needed 
 
 ## Usage
 
-This app is meant to be a employee tracking system.
+This app is meant to be a employee tracking system where you can search departments, employees and also add departments and employees.
 
 ## Credits
 
