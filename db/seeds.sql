@@ -15,7 +15,7 @@ VALUES
 ('HR Rep', 72000, 4),
 ('Social Media Creator', 45000, 3),
 ('Receptionist', 47000, 5),
-('Full Stack Dev', 150,000, 6)
+('Full Stack Dev', 150,000, 6);
 
 INSERT INTO employee(first_name, last_name, role_id) 
 VALUES
