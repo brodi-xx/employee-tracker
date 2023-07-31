@@ -4,6 +4,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+Link to video:
+https://drive.google.com/file/d/1hXehSrieYjmQhP_aC4SBkkfP4R-atfaR/view 
+
 ## Table of Contents
 
 - [Installation](#installation)

@@ -98,5 +98,4 @@ const deleteRole = () => {
 
 // CK
 const companyBudget = () => {
-  // Implement this function to calculate and display the total utilized budget of a department
 };
