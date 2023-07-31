@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Link to video:
-https://drive.google.com/file/d/1hXehSrieYjmQhP_aC4SBkkfP4R-atfaR/view 
+https://drive.google.com/file/d/1oLb4vn3dm805_7Uq5eP1wkG9tnROZLXJ/view
 
 ## Table of Contents
 
@@ -18,7 +18,11 @@ https://drive.google.com/file/d/1hXehSrieYjmQhP_aC4SBkkfP4R-atfaR/view
 
 ## Installation
 
+Clone this repo and open in a code editing program. You will install all needed packages to run this app.
+
 ## Usage
+
+This app is meant to be a employee tracking system.
 
 ## Credits
 
