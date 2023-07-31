@@ -28,8 +28,8 @@ CREATE TABLE employee (
   first_name VARCHAR(30),
   last_name VARCHAR(30),
   role_id INTEGER NOT NULL,
-  fkmanager_id INTEGER,
-  manager_id INTEGER NOT NULL,
+  fkmanager_id INTEGER,    -- Allow NULL values for fkmanager_id
+  manager_id INTEGER DEFAULT NULL, -- Set a default value of NULL for manager_id
   PRIMARY KEY (id),
   INDEX `idx_role` (role_id),
   CONSTRAINT `fk_role_id`
@@ -40,6 +40,7 @@ CREATE TABLE employee (
     FOREIGN KEY (manager_id)
     REFERENCES roles(id) ON UPDATE CASCADE ON DELETE RESTRICT
 );
+
 
 SELECT * FROM employee;
 SELECT * FROM roles;

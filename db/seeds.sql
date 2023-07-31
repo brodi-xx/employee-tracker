@@ -17,13 +17,14 @@ VALUES
 ('Receptionist', 47000, 5),
 ('Full Stack Dev', 150,000, 6);
 
-INSERT INTO employee(first_name, last_name, role_id) 
+INSERT INTO employee(first_name, last_name, role_id, fkmanager_id, manager_id) 
 VALUES
-('Master', 'Roshi', 1),
-('Android', '17', 5),
-('Android', '18', 2),
-('Goku', 'Son', 3),
-('Gohan', 'Son', 6),
-('Goten', 'Son', 3);
+('Master', 'Roshi', 1, NULL, 1),
+('Android', '17', 5, NULL, 1),
+('Android', '18', 2, NULL, 1),
+('Goku', 'Son', 3, NULL, 1),
+('Gohan', 'Son', 6, NULL, 1),
+('Goten', 'Son', 3, NULL, 1);
+
 
 UPDATE `employeeDB`.`employee` SET `manager_id` = '1' WHERE (`id` > '1');
