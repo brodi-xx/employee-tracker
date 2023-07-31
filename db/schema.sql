@@ -43,3 +43,10 @@ CREATE TABLE employee (
 
 SELECT * FROM employee;
 SELECT * FROM roles;
+SELECT * FROM department;
+
+-- DEPT
+INSERT INTO department(name)
+VALUES('xray');
+SELECT * FROM department
+SELECT name AS "Departments" FROM department
